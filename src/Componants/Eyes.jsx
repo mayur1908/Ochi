@@ -11,7 +11,7 @@ function Eyes() {
       let deltaY = mouseY - window.innerHeight / 2;
 
       let angle = Math.atan2(deltaY, deltaX) * (180 / Math.PI);
-      setRotate(angle-180);
+      setRotate(angle - 180);
     };
 
     window.addEventListener('mousemove', handleMouseMove);
@@ -22,7 +22,7 @@ function Eyes() {
   }, []);
 
   return (
-    <div className='eyes w-full h-screen overflow-hidden flex items-center justify-center relative'>
+    <div className='eyes w-full h-screen overflow-hidden flex items-center justify-center relative bg-white'>
       <div className="relative w-full max-w-4xl h-3/4 bg-cover bg-center bg-[url('https://smarttechsecure.com/wp-content/uploads/2022/05/Mission.jpg')] p-10">
       </div>
       <div className="absolute flex gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
