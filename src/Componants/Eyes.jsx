@@ -22,8 +22,8 @@ function Eyes() {
   }, []);
 
   return (
-    <div className='eyes w-full h-screen overflow-hidden flex items-center justify-center relative bg-white'>
-      <div className="relative w-full max-w-4xl h-3/4 bg-cover bg-center bg-[url('https://smarttechsecure.com/wp-content/uploads/2022/05/Mission.jpg')] p-10">
+    <div className='eyes w-full h-screen overflow-hidden flex items-center justify-center relative  bg-zinc-700'>
+      <div className="relative w-full max-w-4xl h-4/5 bg-cover rounded-xl bg-center bg-[url('https://synergymerchants.com/wp-content/uploads/2017/04/Depositphotos_63004709_m-2015.jpg')] p-10">
       </div>
       <div className="absolute flex gap-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2">
         <div className="flex items-center justify-center w-[14vw] h-[14vw] rounded-full bg-zinc-100">
